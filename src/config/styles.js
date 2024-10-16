@@ -75,7 +75,11 @@ export const styles = StyleSheet.create({
       textAlign: 'center',
     },
 
-    
+    scrollContainer: {
+      flexGrow: 1, // Permite que o conteúdo dentro do ScrollView ocupe todo o espaço
+      justifyContent: 'center', // Alinha o conteúdo verticalmente no centro
+      paddingVertical: 20, // Espaçamento vertical
+    },
   }
 );
 
