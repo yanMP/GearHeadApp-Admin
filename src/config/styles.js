@@ -80,6 +80,28 @@ export const styles = StyleSheet.create({
       justifyContent: 'center', // Alinha o conteúdo verticalmente no centro
       paddingVertical: 20, // Espaçamento vertical
     },
+
+    containerLogOut: {
+      flex: 1,
+      justifyContent: 'center', // Centraliza verticalmente
+      alignItems: 'center',     // Centraliza horizontalmente
+      backgroundColor: '#fff',  // Fundo branco
+    },
+    textLogOut: {
+      fontSize: 20,
+      marginBottom: 20,         // Espaçamento entre texto e botão
+      textAlign: 'center',      // Centraliza o texto
+    },
+    buttonLogOut: {
+      backgroundColor: 'rgb(139,0,0)',   // Cor de fundo vermelha
+      paddingVertical: 10,      // Altura do botão
+      paddingHorizontal: 20,    // Largura do botão
+      borderRadius: 5,          // Bordas arredondadas
+    },
+    buttonTextLogOut: {
+      color: 'white',           // Cor do texto do botão
+      fontSize: 18,
+    },
   }
 );
 
