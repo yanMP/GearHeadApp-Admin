@@ -15,23 +15,24 @@ export default function LogOutAdm() {
 const styles = StyleSheet.create({
   containerLogOut: {
     flex: 1,
-    justifyContent: 'center', // Centraliza verticalmente
-    alignItems: 'center',     // Centraliza horizontalmente
-    backgroundColor: '#fff',  // Fundo branco
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#f8f8f8', // Cor de fundo clara para a página
   },
   textLogOut: {
-    fontSize: 20,
-    marginBottom: 20,         // Espaçamento entre texto e botão
-    textAlign: 'center',      // Centraliza o texto
+    fontSize: 18,
+    marginBottom: 20,
+    fontWeight: 'bold',
   },
   buttonLogOut: {
-    backgroundColor: 'rgb(139,0,0)',   // Cor de fundo vermelha
-    paddingVertical: 10,      // Altura do botão
-    paddingHorizontal: 20,    // Largura do botão
-    borderRadius: 5,          // Bordas arredondadas
+    backgroundColor: 'rgb(139,0,0)', // Cor vermelha do botão
+    paddingVertical: 12,
+    paddingHorizontal: 30,
+    borderRadius: 8,
   },
   buttonTextLogOut: {
-    color: 'white',           // Cor do texto do botão
-    fontSize: 18,
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });
