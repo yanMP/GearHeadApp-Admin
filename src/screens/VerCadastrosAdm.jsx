@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { View, Text, FlatList, StyleSheet, TextInput } from 'react-native';
 
+function getEnterprises(){
+  
+}
+
+
 const contas = [
   {
     id: '1',
@@ -48,7 +53,7 @@ export default function VerCadastrosAdm() {
       <Text style={styles.nome}>{item.nome}</Text>
       <Text>Email: {item.email}</Text>
       <Text>Telefone: {item.telefone}</Text>
-      <Text>CEP: {item.cep}</Text> {/* Mostrando CEP */}
+      <Text>CEP: {item.cep}</Text>
     </View>
   );
 
